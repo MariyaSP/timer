@@ -1,0 +1,18 @@
+@import url("fonts.css");
+@import url("header.css");
+@import url("normalize.css");
+@import url("banner.css");
+@import url("promo.css");
+@import url("goods.css");
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+@media(max-width: 1200px){
+    .container{
+        padding: 0;
+    }
+}

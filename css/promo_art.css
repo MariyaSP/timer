@@ -1,0 +1,46 @@
+
+
+.promo{
+    gap: 50px;
+}
+
+.promo__header{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 130%;
+
+}
+.promo_note{
+    font-size: 16px;
+    margin: 40px 0;
+}
+.promo__img{
+    width: 530px;
+    height: 330px;
+}
+
+.promo__cart{
+    position: relative;
+    display: inline-block;
+}
+
+.promo__cart:first-child{
+    padding-bottom: 50px;
+}
+
+.promo__text{
+    position: absolute;
+    color: #fff;
+    left: 0;
+    bottom: 60px;
+    font-size: 16px;
+    padding-left: 30px;
+    padding-bottom: 43px;
+    width: 380px;
+    gap: 4px;
+}
+
+.promo__text p{
+    padding: 0px;
+    margin: 0px;
+}

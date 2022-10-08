@@ -1,0 +1,53 @@
+.main__container{
+    padding: 0 75px;
+    gap: 100px;
+    max-width: 1770px;
+    margin: 0 auto;
+}
+
+.paragraf{
+    padding-bottom: 80px;
+}
+.care{
+    margin: 0 auto;
+}
+
+.care__paragraf strong{
+    font-family: "lato-bold";
+}
+
+.care__note{
+    font-size: 16px;
+    margin: 40px 0;
+}
+
+.care__footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.back, .eye, .chat {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.back img{
+    width: 24px;
+    height: 24px;
+}
+
+.author__name{
+    display: flex;
+    gap: 30px;   
+}
+.article__info, .eye, .chat{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 130%;
+    color: #8F8F8F;
+}
+
+.article__meta{
+    display: flex;
+    gap: 37px;
+}
